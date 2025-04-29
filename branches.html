@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso - Our Branch</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #521908;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #521908;
+            color: white;
+            padding: 10px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #521908;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+        }
+
+        .branches-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .page-title {
+            color: #521908;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #521908;
+            padding-bottom: 10px;
+        }
+
+        .branch-card {
+            background-color: rgba(82, 25, 8, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .branch-name {
+            color: #521908;
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .branch-hours {
+            background-color: rgba(82, 25, 8, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .map-link {
+            color: #521908;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="Main logo.png" alt="Digital Espresso Logo" style="height:50px;">
+                <h1 style="display: inline; margin-left: 10px;">Digital Espresso</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="branches.html">Branches</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="branches-container">
+            <h1 class="page-title">Our Branch</h1>
+
+            <div class="branch-card">
+                <h2 class="branch-name">San Juan, La Union</h2>
+                <p>Located along the vibrant coastline of La Union, our branch in San Juan is the perfect spot to enjoy premium coffee while watching the waves roll in. Ideal for surfers, creatives, and coffee lovers alike.</p>
+
+                <div class="branch-hours">
+                    <strong>Opening Hours:</strong><br>
+                    Mon-Sun: 7:00AM - 9:00PM
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Coffee Aesthetics. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="index.html">Home</a>
+            <a href="branches.html">Branches</a>
+        </div>
+        <p>Instagram | TikTok </p>
+    </footer>
+</body>
+</html>

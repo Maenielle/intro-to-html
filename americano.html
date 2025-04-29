@@ -1,0 +1,191 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; 
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #521908; 
+            color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .main-title {
+             color: #521908;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #521908;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+        }
+
+        .product-showcase {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+            background-color: #521908;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product-image {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #521908;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .description {
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .product-showcase {
+                flex-direction: column;
+            }
+            
+            .product-image {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        .media-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .media-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="Main logo.png" alt="Digital Espresso Logo" style="height:50px;">
+                <h1 style="display: inline; margin-left: 10px;">Digital Espresso</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="branches.html">Branches</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main-title">Iced Americano - ₱120</h1>
+    
+        <div class="product-showcase">
+            <img src="americano.jpg" class="product-image">
+            <div class="product-info">
+                <p class="description">
+                    Simple, strong, and refreshing. Our Iced Americano is made with 
+                    double shots of espresso poured over cold water and ice for a clean, bold flavor 
+                    that hits just right. Served in a 16oz cup, it’s the go-to drink for purists who 
+                    appreciate a no-fuss, low-calorie caffeine boost.
+                </p>
+                <p>
+                    <strong>Ingredients:</strong> Coffee Beans, Ice, Sugar, Water<br>
+                    <strong>Serving Size:</strong> 16oz<br>
+                    <strong>Additional:</strong> Almond Milk, Non-dairy milk<br>
+                    <strong>Caffeine:</strong> 150mg
+                </p>
+            </div>
+        </div>
+
+        <p style="margin-top: 30px;">
+            <a href="products.html" style="color: #521908; text-decoration: none; font-weight: bold;">
+                ← Go back to Products page
+            </a>
+        </p>
+
+        
+    </main>
+    
+
+    <footer>
+        <p>&copy; Digital Espresso. Located at San Juan, La Union.</p>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="index.html">Home</a>
+            <a href="branches.html">Branches</a>
+        </div>
+        <p>Instagram | TikTok </p>
+    </footer>
+</body>
+</html>
